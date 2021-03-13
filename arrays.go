@@ -6,7 +6,7 @@ func main() {
 
 	var a [5]int
 	fmt.Println("emp:", a)
-
+	//somethin
 
 	a[4] = 100
 	fmt.Println("set:", a)

@@ -30,5 +30,5 @@ func main() {
 	} else if guess < 0 {
 		fmt.Println("Your number must be between 1-5!")
 	}
-	fmt.Println("The secret number was ", randomnumber) //reveal secret number
+	fmt.Println("The secret number was ", randomnumber) //reveal secret
 }
