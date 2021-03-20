@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("\nA secret number was created between 1-5, go ahead and guess.")
 
 	var guess int //this is the user input as an int
-	//fmt.Scanln(&guess)
+	fmt.Scanln(&guess)
 
 	fmt.Println("Guess was : ", guess)
 	//guessing ifs
