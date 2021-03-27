@@ -8,9 +8,9 @@ func main() {
 
 	select {
 	case msg := <-messages:
-		fmt.Println("recieved message", msg)
+		fmt.Println("received message", msg)
 	default:
-		fmt.Println("no message recieved")
+		fmt.Println("no message received")
 	}
 
 	msg := "hi"
@@ -23,9 +23,9 @@ func main() {
 
 	select {
 	case msg := <-messages:
-		fmt.Println("recieved message", msg)
+		fmt.Println("received message", msg)
 	case sig := <-signals:
-		fmt.Println("recieved signal", sig)
+		fmt.Println("received signal", sig)
 	default:
 		fmt.Println("no activity")
 	}
