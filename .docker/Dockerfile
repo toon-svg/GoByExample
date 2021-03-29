@@ -9,6 +9,6 @@ RUN curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 COPY .vimrc /root/.vimrc
 RUN echo "colorscheme gruvbox-material" >> /root/.vimrc
-RUN vim -c PlugInstall
+#RUN vim -c PlugInstall
 RUN git clone https://github.com/toon-svg/GoByExample.git
 RUN mv GoByExample/ ~/
